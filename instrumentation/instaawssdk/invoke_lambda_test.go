@@ -16,10 +16,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/awstesting/unit"
 	"github.com/aws/aws-sdk-go/service/lambda"
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instaawssdk"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instaawssdk"
 )
 
 func TestStartInvokeLambdaSpan_WithActiveSpan(t *testing.T) {

@@ -9,10 +9,9 @@ import (
 	"context"
 	"sync"
 
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 
 	"github.com/jackc/pgconn"
-	"github.com/jackc/pgx/v4"
 )
 
 // batchResults is a wrapper for pgx.batchResults

@@ -1,7 +1,7 @@
 OpenTracing Example Server
 ==========================
 
-This is an example app that demonstrates how to use `github.com/instana/go-sensor` as an OpenTracing tracer.
+This is an example app that demonstrates how to use `github.com/mier85/go-sensor` as an OpenTracing tracer.
 
 Usage
 -----

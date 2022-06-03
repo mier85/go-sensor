@@ -13,10 +13,10 @@ import (
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambdacontext"
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instalambda"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instalambda"
 )
 
 func TestMain(m *testing.M) {

@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2021
 
+//go:build go1.12
 // +build go1.12
 
 package instamux_test
@@ -10,8 +11,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instamux"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instamux"
 )
 
 // This example shows how to instrument an HTTP server that uses github.com/gorilla/mux with Instana

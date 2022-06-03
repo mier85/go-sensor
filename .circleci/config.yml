@@ -29,7 +29,7 @@ jobs:
           POSTGRES_USER: postgres
           POSTGRES_DB: postgres
           POSTGRES_PASSWORD: mysecretpassword
-    working_directory: /go/src/github.com/instana/go-sensor
+    working_directory: /go/src/github.com/mier85/go-sensor
     steps:
       - checkout
       - run:

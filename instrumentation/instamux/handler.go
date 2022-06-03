@@ -9,7 +9,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 )
 
 // AddMiddleware instruments the mux.Router instance with Instana

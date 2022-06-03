@@ -3,7 +3,7 @@ Instana instrumentation for github.com/sirupsen/logrus
 
 This module contains instrumentation code for [`github.com/sirupsen/logrus`](https://github.com/sirupsen/logrus) logger.
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/instana/go-sensor/instrumentation/instalogrus)][godoc]
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/mier85/go-sensor/instrumentation/instalogrus)][godoc]
 
 Installation
 ------------
@@ -11,7 +11,7 @@ Installation
 To add the module to your `go.mod` file run the following command in your project directory:
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/instalogrus
+$ go get github.com/mier85/go-sensor/instrumentation/instalogrus
 ```
 
 Usage
@@ -38,5 +38,5 @@ logrus.WithContext(ctx).
 
 
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instalogrus
-[fullExample]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instalogrus#example-package
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instalogrus
+[fullExample]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instalogrus#example-package

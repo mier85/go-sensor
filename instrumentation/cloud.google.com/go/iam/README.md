@@ -11,7 +11,7 @@ Installation
 To add the module to your `go.mod` file run the following command in your project directory:
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/cloud.google.com/go/iam
+$ go get github.com/mier85/go-sensor/instrumentation/cloud.google.com/go/iam
 ```
 
 Usage
@@ -20,4 +20,4 @@ Usage
 Currently, this module is meant to be used together with [the Google Cloud Storage instrumentation](../storage) and
 limited to the Buckets IAM only.
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/cloud.google.com/go/iam
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/cloud.google.com/go/iam

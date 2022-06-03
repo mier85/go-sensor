@@ -6,9 +6,9 @@ package instana_test
 import (
 	"testing"
 
-	instana "github.com/instana/go-sensor"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	instana "github.com/mier85/go-sensor"
 	"github.com/opentracing/opentracing-go/ext"
 )
 

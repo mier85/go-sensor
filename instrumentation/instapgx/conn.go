@@ -10,9 +10,8 @@ import (
 	"fmt"
 	"sync"
 
-	instana "github.com/instana/go-sensor"
 	"github.com/jackc/pgconn"
-	"github.com/jackc/pgx/v4"
+	instana "github.com/mier85/go-sensor"
 )
 
 var detailedBatchMode = false

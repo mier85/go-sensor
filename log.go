@@ -4,7 +4,7 @@
 package instana
 
 import (
-	"github.com/instana/go-sensor/logger"
+	"github.com/mier85/go-sensor/logger"
 )
 
 // Valid log levels

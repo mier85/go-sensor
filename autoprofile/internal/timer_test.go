@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/instana/go-sensor/autoprofile/internal"
 	"github.com/instana/testify/assert"
+	"github.com/mier85/go-sensor/autoprofile/internal"
 )
 
 func TestTimer_Stop_Restart(t *testing.T) {

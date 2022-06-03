@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2016
 
+//go:build go1.11
 // +build go1.11
 
 package main
@@ -10,8 +11,8 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instagin"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instagin"
 )
 
 var listenAddr string

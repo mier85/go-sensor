@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/instana/go-sensor/autoprofile/internal"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	"github.com/mier85/go-sensor/autoprofile/internal"
 )
 
 func TestCreateBlockProfile(t *testing.T) {

@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2020
 
+//go:build linux
 // +build linux
 
 package process_test
@@ -8,9 +9,9 @@ package process_test
 import (
 	"testing"
 
-	"github.com/instana/go-sensor/process"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	"github.com/mier85/go-sensor/process"
 )
 
 func TestStats_Memory(t *testing.T) {

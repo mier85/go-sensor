@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2016
 
+//go:build go1.11
 // +build go1.11
 
 package instagin_test
@@ -20,8 +21,8 @@ import (
 	"github.com/instana/testify/assert"
 
 	"github.com/gin-gonic/gin"
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instagin"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instagin"
 )
 
 func TestMain(m *testing.M) {

@@ -4,13 +4,13 @@
 package logger
 
 import (
-	instalogger "github.com/instana/go-sensor/logger"
+	instalogger "github.com/mier85/go-sensor/logger"
 )
 
 // Level is the log level
 type Level uint8
 
-// Valid log levels compatible with github.com/instana/go-sensor log level values
+// Valid log levels compatible with github.com/mier85/go-sensor log level values
 const (
 	ErrorLevel Level = iota
 	WarnLevel

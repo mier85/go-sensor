@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 )
 
 const TestServiceName = "test_service"

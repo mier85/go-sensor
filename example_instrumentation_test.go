@@ -7,7 +7,7 @@ import (
 	"context"
 	"net/http"
 
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 )
 
 // This example demonstrates how to instrument an HTTP handler with Instana and register it

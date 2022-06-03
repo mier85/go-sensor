@@ -11,7 +11,7 @@ import (
 	"io"
 
 	"cloud.google.com/go/storage"
-	"github.com/instana/go-sensor/instrumentation/cloud.google.com/go/internal"
+	"github.com/mier85/go-sensor/instrumentation/cloud.google.com/go/internal"
 	ot "github.com/opentracing/opentracing-go"
 )
 

@@ -29,7 +29,7 @@ type Options struct {
 	// ForceTransmissionStartingAt is the number of spans to collect before flushing the buffer to the agent
 	ForceTransmissionStartingAt int
 	// LogLevel is the initial logging level for the logger used by Instana tracer. The valid log levels are
-	// logger.{Error,Warn,Info,Debug}Level provided by the github.com/instana/go-sensor/logger package.
+	// logger.{Error,Warn,Info,Debug}Level provided by the github.com/mier85/go-sensor/logger package.
 	//
 	// Note: this setting is only used to initialize the default logger and has no effect if a custom logger is set via instana.SetLogger()
 	LogLevel int

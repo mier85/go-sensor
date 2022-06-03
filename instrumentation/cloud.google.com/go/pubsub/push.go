@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2020
 
+//go:build go1.11
 // +build go1.11
 
 package pubsub
@@ -13,7 +14,7 @@ import (
 	"net/http"
 	"strings"
 
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 )

@@ -5,7 +5,7 @@ package instaawssdk
 
 import (
 	"github.com/aws/aws-sdk-go/aws/request"
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	otlog "github.com/opentracing/opentracing-go/log"

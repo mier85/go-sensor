@@ -9,9 +9,8 @@ import (
 	"context"
 	"log"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instapgx"
 	"github.com/jackc/pgx/v4"
+	instana "github.com/mier85/go-sensor"
 )
 
 func ExampleConn_Prepare() {

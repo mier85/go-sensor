@@ -4,16 +4,16 @@ Instana instrumentation for AWS Lambda
 This module contains instrumentation code for AWS Lambda functions written in Go that use
 [`github.com/aws/aws-lambda-go`](https://github.com/aws/aws-lambda-go) as a runtime.
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/instana/go-sensor/instrumentation/instalambda)](https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instalambda)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/mier85/go-sensor/instrumentation/instalambda)](https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instalambda)
 
 Installation
 ------------
 
-To add `github.com/instana/go-sensor/instrumentation/instalambda` to your `go.mod` file, from your project directory
+To add `github.com/mier85/go-sensor/instrumentation/instalambda` to your `go.mod` file, from your project directory
 run:
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/instalambda
+$ go get github.com/mier85/go-sensor/instrumentation/instalambda
 ```
 
 Usage
@@ -108,7 +108,7 @@ func subCall(ctx context.Context) {
 }
 ```
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instalambda
-[instalambda.NewHandler]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instalambda#NewHandler
-[instalambda.WrapHandler]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instalambda#WrapHandler
-[instana.SpanFromContext]: https://pkg.go.dev/github.com/instana/go-sensor#SpanFromContext
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instalambda
+[instalambda.NewHandler]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instalambda#NewHandler
+[instalambda.WrapHandler]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instalambda#WrapHandler
+[instana.SpanFromContext]: https://pkg.go.dev/github.com/mier85/go-sensor#SpanFromContext

@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/instana/go-sensor/acceptor"
-	"github.com/instana/go-sensor/autoprofile"
+	"github.com/mier85/go-sensor/acceptor"
+	"github.com/mier85/go-sensor/autoprofile"
 )
 
 const (

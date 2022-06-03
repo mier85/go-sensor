@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"reflect"
 
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 	"github.com/opentracing/opentracing-go"
 	otlog "github.com/opentracing/opentracing-go/log"
 	"go.mongodb.org/mongo-driver/bson"

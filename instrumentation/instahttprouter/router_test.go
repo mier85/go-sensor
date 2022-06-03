@@ -8,13 +8,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instahttprouter"
-	"github.com/instana/go-sensor/secrets"
-	"github.com/instana/go-sensor/w3ctrace"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
 	"github.com/julienschmidt/httprouter"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instahttprouter"
+	"github.com/mier85/go-sensor/secrets"
+	"github.com/mier85/go-sensor/w3ctrace"
 	"github.com/opentracing/opentracing-go"
 )
 

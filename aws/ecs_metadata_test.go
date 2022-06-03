@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/instana/go-sensor/aws"
-	"github.com/instana/go-sensor/docker"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	"github.com/mier85/go-sensor/aws"
+	"github.com/mier85/go-sensor/docker"
 )
 
 func TestECSMetadataProvider_ContainerMetadata(t *testing.T) {

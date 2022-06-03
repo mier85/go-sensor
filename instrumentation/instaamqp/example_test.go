@@ -10,8 +10,8 @@ import (
 	"log"
 	"time"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instaamqp"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instaamqp"
 
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/streadway/amqp"

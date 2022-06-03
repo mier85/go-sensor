@@ -6,7 +6,7 @@ package instana
 import (
 	"strings"
 
-	"github.com/instana/go-sensor/w3ctrace"
+	"github.com/mier85/go-sensor/w3ctrace"
 )
 
 // EUMCorrelationData represents the data sent by the Instana End-User Monitoring script

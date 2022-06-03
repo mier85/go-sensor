@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instagrpc"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instagrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

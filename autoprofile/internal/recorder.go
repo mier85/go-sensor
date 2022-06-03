@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/instana/go-sensor/autoprofile/internal/logger"
+	"github.com/mier85/go-sensor/autoprofile/internal/logger"
 )
 
 // DefaultMaxBufferedProfiles is the default number of profiles to keep in recorder buffer

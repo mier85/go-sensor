@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2016
 
+//go:build go1.15
 // +build go1.15
 
 package instaecho_test
@@ -12,11 +13,10 @@ import (
 	"os"
 	"testing"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instaecho"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
 	"github.com/labstack/echo/v4"
+	instana "github.com/mier85/go-sensor"
 	"github.com/opentracing/opentracing-go"
 )
 

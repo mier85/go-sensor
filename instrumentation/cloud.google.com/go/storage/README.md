@@ -11,7 +11,7 @@ Installation
 To add the module to your `go.mod` file run the following command in your project directory:
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/cloud.google.com/go/storage
+$ go get github.com/mier85/go-sensor/instrumentation/cloud.google.com/go/storage
 ```
 
 Usage
@@ -30,7 +30,7 @@ package main
 
 import (
 	"google.golang.org/api/iterator"
-	"github.com/instana/go-sensor/instrumentation/cloud.google.com/go/storage" // replaces "cloud.google.com/go/storage"
+	"github.com/mier85/go-sensor/instrumentation/cloud.google.com/go/storage" // replaces "cloud.google.com/go/storage"
 	gstorage "cloud.google.com/go/storage" // in case your code references value types
 )
 
@@ -52,5 +52,5 @@ func main() {
 }
 ```
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/cloud.google.com/go/storage
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/cloud.google.com/go/storage
 [gcs]: https://cloud.google.com/storage

@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2020
 
+//go:build go1.11
 // +build go1.11
 
 package pubsub_test
@@ -10,8 +11,8 @@ import (
 	"fmt"
 	"net/http"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/cloud.google.com/go/pubsub"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/cloud.google.com/go/pubsub"
 )
 
 // This example show how to instrument and HTTP handler that receives Google Cloud Pub/Sub messages

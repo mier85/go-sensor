@@ -6,9 +6,9 @@ package autoprofile
 import (
 	"os"
 
-	"github.com/instana/go-sensor/autoprofile/internal"
-	"github.com/instana/go-sensor/autoprofile/internal/logger"
-	instalogger "github.com/instana/go-sensor/logger"
+	"github.com/mier85/go-sensor/autoprofile/internal"
+	"github.com/mier85/go-sensor/autoprofile/internal/logger"
+	instalogger "github.com/mier85/go-sensor/logger"
 )
 
 // Profile represents profiler data sent to the host agent

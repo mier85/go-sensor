@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/go-redis/redis/v8"
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 	ot "github.com/opentracing/opentracing-go"
 	otlog "github.com/opentracing/opentracing-go/log"
 )

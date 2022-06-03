@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/instana/go-sensor/acceptor"
+	"github.com/mier85/go-sensor/acceptor"
 )
 
 // SnapshotS struct to hold snapshot data

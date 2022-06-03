@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2020
 
+//go:build go1.10
 // +build go1.10
 
 package instana_test
@@ -12,9 +13,9 @@ import (
 	"errors"
 	"testing"
 
-	instana "github.com/instana/go-sensor"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	instana "github.com/mier85/go-sensor"
 	ot "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 )

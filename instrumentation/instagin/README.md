@@ -12,7 +12,7 @@ Installation
 To add the module to your `go.mod` file run the following command in your project directory:
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/instagin
+$ go get github.com/mier85/go-sensor/instrumentation/instagin
 ```
 
 Usage
@@ -36,5 +36,5 @@ engine.GET("/api", func(c *gin.Context) {}
 
 
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instagin
-[fullExample]: https://github.com/instana/go-sensor/blob/master/example/gin/main.go
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instagin
+[fullExample]: https://github.com/mier85/go-sensor/blob/master/example/gin/main.go

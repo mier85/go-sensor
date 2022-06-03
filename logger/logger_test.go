@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/instana/go-sensor/logger"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	"github.com/mier85/go-sensor/logger"
 )
 
 func TestLevel_Less(t *testing.T) {

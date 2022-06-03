@@ -56,9 +56,9 @@ legal:
 
 instrumentation/% :
 	mkdir -p $@
-	cd $@ && go mod init github.com/instana/go-sensor/$@
+	cd $@ && go mod init github.com/mier85/go-sensor/$@
 	sed "s~Copyright (c) [0-9]*~Copyright (c) $(shell date +%Y)~" LICENSE.md > $@/LICENSE.md
-	printf "VERSION_TAG_PREFIX ?= $@/v\nGO_MODULE_NAME ?= github.com/instana/go-sensor/$@\n\ninclude ../../Makefile.release\n" > $@/Makefile
+	printf "VERSION_TAG_PREFIX ?= $@/v\nGO_MODULE_NAME ?= github.com/mier85/go-sensor/$@\n\ninclude ../../Makefile.release\n" > $@/Makefile
 	printf '// (c) Copyright IBM Corp. %s\n// (c) Copyright Instana Inc. %s\n\npackage %s\n\nconst Version = "0.0.0"\n' $(shell date +%Y) $(shell date +%Y) $(notdir $@) > $@/version.go
 
 .PHONY: test vendor install legal $(MODULES) $(INTEGRATION_TESTS)

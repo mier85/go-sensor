@@ -11,10 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 
 	"github.com/instana/testify/assert"
-	"github.com/jackc/pgx/v4"
 	_ "github.com/lib/pq"
 )
 

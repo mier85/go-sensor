@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instasarama"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instasarama"
 )
 
 func TestConsumer_ConsumePartition(t *testing.T) {

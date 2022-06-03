@@ -1,7 +1,7 @@
 An Instrumented github.com/gin-gonic/gin Server Example
 =======================================================
 
-An example of instrumenting a `github.com/gin-gonic/gin` HTTP service with Instana using [`github.com/instana/go-sensor/tree/master/instrumentation/instagin`](https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instagin).
+An example of instrumenting a `github.com/gin-gonic/gin` HTTP service with Instana using [`github.com/mier85/go-sensor/tree/master/instrumentation/instagin`](https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instagin).
 
 Usage
 -----

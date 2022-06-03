@@ -3,7 +3,7 @@
 
 package acceptor
 
-import "github.com/instana/go-sensor/process"
+import "github.com/mier85/go-sensor/process"
 
 // ProcessData is a representation of a running process for com.instana.plugin.process plugin
 type ProcessData struct {

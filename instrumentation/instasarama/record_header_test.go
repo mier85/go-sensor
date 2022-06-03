@@ -6,9 +6,9 @@ package instasarama_test
 import (
 	"testing"
 
-	"github.com/instana/go-sensor/instrumentation/instasarama"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	"github.com/mier85/go-sensor/instrumentation/instasarama"
 )
 
 func TestPackUnpackTraceContextHeader(t *testing.T) {

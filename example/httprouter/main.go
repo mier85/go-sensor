@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"os"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instahttprouter"
 	"github.com/julienschmidt/httprouter"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instahttprouter"
 )
 
 var listenAddr string

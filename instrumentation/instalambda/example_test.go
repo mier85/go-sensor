@@ -9,8 +9,8 @@ import (
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instalambda"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instalambda"
 )
 
 // This example demonstrates how to instrument a handler function with Instana

@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2020
 
+//go:build go1.11
 // +build go1.11
 
 package storage
@@ -10,7 +11,7 @@ import (
 	"strings"
 
 	"cloud.google.com/go/storage"
-	"github.com/instana/go-sensor/instrumentation/cloud.google.com/go/internal"
+	"github.com/mier85/go-sensor/instrumentation/cloud.google.com/go/internal"
 	ot "github.com/opentracing/opentracing-go"
 )
 

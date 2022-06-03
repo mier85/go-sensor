@@ -11,7 +11,7 @@ Installation
 Unlike the Instana Go sensor, GRPC instrumentation module requires Go v1.9+ which is the minimal version for `google.golang.org/grpc`.
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/instagrpc
+$ go get github.com/mier85/go-sensor/instrumentation/instagrpc
 ```
 
 Usage
@@ -67,12 +67,12 @@ conn, err := grpc.Dial(
 
 If the context contains an active span stored using [`instana.ContextWithSpan()`][ContextWithSpan], the tracer of this span will be used instead.
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instagrpc
-[NewSensor]: https://pkg.go.dev/github.com/instana/go-sensor?tab=doc#NewSensor
-[StreamClientInterceptor]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instagrpc?tab=doc#StreamClientInterceptor
-[StreamServerInterceptor]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instagrpc?tab=doc#StreamServerInterceptor
-[UnaryClientInterceptor]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instagrpc?tab=doc#UnaryClientInterceptor
-[UnaryServerInterceptor]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instagrpc?tab=doc#UnaryServerInterceptor
-[Sensor]: https://pkg.go.dev/github.com/instana/go-sensor/?tab=doc#Sensor
-[SpanFromContext]: https://pkg.go.dev/github.com/instana/go-sensor/?tab=doc#SpanFromContext
-[ContextWithSpan]: https://pkg.go.dev/github.com/instana/go-sensor/?tab=doc#ContextWithSpan
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instagrpc
+[NewSensor]: https://pkg.go.dev/github.com/mier85/go-sensor?tab=doc#NewSensor
+[StreamClientInterceptor]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instagrpc?tab=doc#StreamClientInterceptor
+[StreamServerInterceptor]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instagrpc?tab=doc#StreamServerInterceptor
+[UnaryClientInterceptor]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instagrpc?tab=doc#UnaryClientInterceptor
+[UnaryServerInterceptor]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instagrpc?tab=doc#UnaryServerInterceptor
+[Sensor]: https://pkg.go.dev/github.com/mier85/go-sensor/?tab=doc#Sensor
+[SpanFromContext]: https://pkg.go.dev/github.com/mier85/go-sensor/?tab=doc#SpanFromContext
+[ContextWithSpan]: https://pkg.go.dev/github.com/mier85/go-sensor/?tab=doc#ContextWithSpan

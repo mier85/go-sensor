@@ -7,7 +7,7 @@ import (
 	"context"
 	"net"
 
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 	ot "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"google.golang.org/grpc"

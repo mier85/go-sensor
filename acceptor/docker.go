@@ -6,8 +6,8 @@ package acceptor
 import (
 	"time"
 
-	"github.com/instana/go-sensor/aws"
-	"github.com/instana/go-sensor/docker"
+	"github.com/mier85/go-sensor/aws"
+	"github.com/mier85/go-sensor/docker"
 )
 
 // DockerData is a representation of a Docker container for com.instana.plugin.docker plugin

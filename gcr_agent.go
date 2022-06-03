@@ -17,9 +17,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/instana/go-sensor/acceptor"
-	"github.com/instana/go-sensor/autoprofile"
-	"github.com/instana/go-sensor/gcloud"
+	"github.com/mier85/go-sensor/acceptor"
+	"github.com/mier85/go-sensor/autoprofile"
+	"github.com/mier85/go-sensor/gcloud"
 )
 
 const googleCloudRunMetadataURL = "http://metadata.google.internal"

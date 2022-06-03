@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2016
 
+//go:build go1.15
 // +build go1.15
 
 package instaecho_test
@@ -8,9 +9,8 @@ package instaecho_test
 import (
 	"log"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instaecho"
 	"github.com/labstack/echo/v4"
+	instana "github.com/mier85/go-sensor"
 )
 
 // This example shows how to instrument an HTTP server that uses github.com/labstack/echo with Instana

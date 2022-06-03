@@ -12,7 +12,7 @@ Installation
 Unlike the Instana Go sensor, this instrumentation module requires Go v1.9+. 
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/instasarama
+$ go get github.com/mier85/go-sensor/instrumentation/instasarama
 ```
 
 Usage
@@ -140,13 +140,13 @@ The following are valid values:
 
 > If no environment variable is provided, or its value is empty or if it's not a valid value, Kafka headers will be treated as binary
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instasarama
-[NewSyncProducer]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instasarama?tab=doc#NewSyncProducer
-[NewSyncProducerFromClient]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instasarama?tab=doc#NewSyncProducerFromClient
-[NewAsyncProducer]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instasarama?tab=doc#NewAsyncProducer
-[NewAsyncProducerFromClient]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instasarama?tab=doc#NewAsyncProducerFromClient
-[NewConsumer]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instasarama?tab=doc#NewConsumer
-[NewConsumerFromClient]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instasarama?tab=doc#NewConsumerFromClient
-[WrapConsumerGroupHandler]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instasarama?tab=doc#WrapConsumerGroupHandler
-[ProducerMessageWithSpan]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instasarama?tab=doc#ProducerMessageWithSpan
-[SpanContextFromConsumerMessage]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instasarama?tab=doc#SpanContextFromConsumerMessage
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instasarama
+[NewSyncProducer]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instasarama?tab=doc#NewSyncProducer
+[NewSyncProducerFromClient]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instasarama?tab=doc#NewSyncProducerFromClient
+[NewAsyncProducer]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instasarama?tab=doc#NewAsyncProducer
+[NewAsyncProducerFromClient]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instasarama?tab=doc#NewAsyncProducerFromClient
+[NewConsumer]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instasarama?tab=doc#NewConsumer
+[NewConsumerFromClient]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instasarama?tab=doc#NewConsumerFromClient
+[WrapConsumerGroupHandler]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instasarama?tab=doc#WrapConsumerGroupHandler
+[ProducerMessageWithSpan]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instasarama?tab=doc#ProducerMessageWithSpan
+[SpanContextFromConsumerMessage]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instasarama?tab=doc#SpanContextFromConsumerMessage

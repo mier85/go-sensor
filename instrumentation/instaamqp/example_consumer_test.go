@@ -8,8 +8,8 @@ package instaamqp_test
 import (
 	"fmt"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instaamqp"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instaamqp"
 
 	"github.com/streadway/amqp"
 )

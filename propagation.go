@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/instana/go-sensor/w3ctrace"
+	"github.com/mier85/go-sensor/w3ctrace"
 	ot "github.com/opentracing/opentracing-go"
 )
 

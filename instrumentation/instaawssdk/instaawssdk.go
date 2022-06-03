@@ -17,7 +17,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/sns"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 	"github.com/opentracing/opentracing-go"
 )
 

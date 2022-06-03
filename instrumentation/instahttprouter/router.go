@@ -7,8 +7,8 @@ import (
 	"context"
 	"net/http"
 
-	instana "github.com/instana/go-sensor"
 	"github.com/julienschmidt/httprouter"
+	instana "github.com/mier85/go-sensor"
 )
 
 // Wrap returns an instrumented instance of a httprouter.Router that

@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2020
 
+//go:build go1.11
 // +build go1.11
 
 // Package pubsub provides Instana tracing instrumentation for
@@ -11,7 +12,7 @@ import (
 	"context"
 
 	"cloud.google.com/go/pubsub"
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 	"google.golang.org/api/option"
 )
 

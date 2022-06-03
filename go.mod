@@ -1,4 +1,4 @@
-module github.com/instana/go-sensor
+module github.com/mier85/go-sensor
 
 go 1.9
 

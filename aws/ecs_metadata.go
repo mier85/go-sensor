@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/instana/go-sensor/docker"
+	"github.com/mier85/go-sensor/docker"
 )
 
 // ContainerLimits represents the resource limits specified at the task level

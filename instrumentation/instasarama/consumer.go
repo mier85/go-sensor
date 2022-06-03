@@ -5,7 +5,7 @@ package instasarama
 
 import (
 	"github.com/Shopify/sarama"
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 )
 
 // Consumer is a wrapper for sarama.Consumer that wraps and returns instrumented

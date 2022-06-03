@@ -12,7 +12,7 @@ Installation
 To add the module to your `go.mod` file run the following command in your project directory:
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/instahttprouter
+$ go get github.com/mier85/go-sensor/instrumentation/instahttprouter
 ```
 
 Usage
@@ -38,4 +38,4 @@ r.HandlerFunc(http.MethodDelete, "/foo/:id", func(writer http.ResponseWriter, re
 
 [Full example](../../example/httprouter/main.go)
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instahttprouter
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instahttprouter

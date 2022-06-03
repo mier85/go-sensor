@@ -9,8 +9,8 @@ import (
 	"log"
 	"time"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instamongo"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instamongo"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
@@ -18,7 +18,7 @@ import (
 const localhostMongo = "mongodb://localhost:27017"
 
 // The following example demonstrates how to instrument a MongoDB client with instana using
-// github.com/instana/go-sensor/instrumentation/instamongo wrapper module.
+// github.com/mier85/go-sensor/instrumentation/instamongo wrapper module.
 func Example() {
 	// Initialize Instana sensor
 	sensor := instana.NewSensor("mongo-client")

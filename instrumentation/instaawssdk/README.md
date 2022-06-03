@@ -12,13 +12,13 @@ Following services are currently instrumented:
 * [SNS](https://docs.aws.amazon.com/sdk-for-go/api/service/sns/)
 * [SQS](https://docs.aws.amazon.com/sdk-for-go/api/service/sqs/)
 * [Lambda](https://docs.aws.amazon.com/sdk-for-go/api/service/lambda/) 
-  - Read about usage and limitations [here](https://github.com/instana/go-sensor/tree/master/instrumentation/instaawssdk#instrumenting-lambda)
+  - Read about usage and limitations [here](https://github.com/mier85/go-sensor/tree/master/instrumentation/instaawssdk#instrumenting-lambda)
 
 Installation
 ------------
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/instaawssdk
+$ go get github.com/mier85/go-sensor/instrumentation/instaawssdk
 ```
 
 Usage
@@ -109,8 +109,8 @@ Known limitations:
 - If the length of base64 encoded `ClientContext` will exceed 3582 bytes, tracing headers will be not propagated.
 - Deprecated methods like `InvokeAsync`, `InvokeAsyncWithContext` etc. are not supported.
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instaawssdk
-[Sensor]: https://pkg.go.dev/github.com/instana/go-sensor?tab=doc#Sensor
-[NewSensor]: https://pkg.go.dev/github.com/instana/go-sensor?tab=doc#NewSensor
-[InstrumentSession]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instaawssdk?tab=doc#InstrumentSession
-[SpanContextFromSQSMessage]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instaawssdk?tab=doc#SpanContextFromSQSMessage
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instaawssdk
+[Sensor]: https://pkg.go.dev/github.com/mier85/go-sensor?tab=doc#Sensor
+[NewSensor]: https://pkg.go.dev/github.com/mier85/go-sensor?tab=doc#NewSensor
+[InstrumentSession]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instaawssdk?tab=doc#InstrumentSession
+[SpanContextFromSQSMessage]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instaawssdk?tab=doc#SpanContextFromSQSMessage

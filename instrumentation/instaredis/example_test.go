@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/go-redis/redis/v8"
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instaredis"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instaredis"
 )
 
 func Example() {

@@ -14,8 +14,7 @@ import (
 	ot "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/jackc/pgx/v4"
+	instana "github.com/mier85/go-sensor"
 )
 
 // Connect establishes a connection with a PostgreSQL server using connection string

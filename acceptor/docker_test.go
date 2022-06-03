@@ -6,9 +6,9 @@ package acceptor_test
 import (
 	"testing"
 
-	"github.com/instana/go-sensor/acceptor"
-	"github.com/instana/go-sensor/docker"
 	"github.com/instana/testify/assert"
+	"github.com/mier85/go-sensor/acceptor"
+	"github.com/mier85/go-sensor/docker"
 )
 
 func TestNewDockerPluginPayload(t *testing.T) {

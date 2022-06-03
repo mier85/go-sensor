@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2016
 
+//go:build go1.15
 // +build go1.15
 
 package instaecho
@@ -8,7 +9,6 @@ package instaecho
 import (
 	"net/http"
 
-	instana "github.com/instana/go-sensor"
 	"github.com/labstack/echo/v4"
 )
 

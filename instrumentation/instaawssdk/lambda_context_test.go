@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instaawssdk"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instaawssdk"
 )
 
 func TestLambdaClientContext_Base64(t *testing.T) {

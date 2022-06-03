@@ -3,7 +3,7 @@ Instana instrumentation for go-redis
 
 This module contains instrumentation code for Redis clients written with [`go-redis`](https://pkg.go.dev/github.com/go-redis/redis/v8).
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/instana/go-sensor/instrumentation/instaredis)][godoc]
+[![GoDoc](https://pkg.go.dev/badge/github.com/mier85/go-sensor/instrumentation/instaredis)][godoc]
 
 Installation
 ------------
@@ -11,7 +11,7 @@ Installation
 To add the module to your `go.mod` file run the following command in your project directory:
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/instaredis
+$ go get github.com/mier85/go-sensor/instrumentation/instaredis
 ```
 
 Usage
@@ -34,6 +34,6 @@ instaredis.WrapClient(rdb, sensor)
 See the [`instaredis` package documentation][godoc] for detailed examples.
 
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instaredis
-[instaredis.WrapClient]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instaredis#WrapClient
-[instaredis.WrapClusterClient]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instaredis#WrapClusterClient
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instaredis
+[instaredis.WrapClient]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instaredis#WrapClient
+[instaredis.WrapClusterClient]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instaredis#WrapClusterClient

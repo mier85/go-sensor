@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instalogrus"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instalogrus"
 	"github.com/sirupsen/logrus"
 )
 

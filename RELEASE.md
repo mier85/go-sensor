@@ -7,4 +7,4 @@ Release Steps
 2. From the module directory run `make (minor|patch) release`
    - This would create a new commit updating the module version constant in `version.go`, tag and push it to GitHub.
    - If you have [GitHub CLI](https://cli.github.com/) installed, it will also create a draft release with the changelog
-3. Go to [Releases](https://github.com/instana/go-sensor/releases) page, review and publish the draft release created by `make`
+3. Go to [Releases](https://github.com/mier85/go-sensor/releases) page, review and publish the draft release created by `make`

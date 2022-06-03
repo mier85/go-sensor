@@ -12,10 +12,9 @@ import (
 	"math/rand"
 	"testing"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instapgx"
 	"github.com/instana/testify/assert"
-	"github.com/jackc/pgx/v4"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instapgx"
 )
 
 var databaseUrl = "postgres://postgres:mysecretpassword@localhost/postgres"

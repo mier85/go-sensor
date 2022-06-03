@@ -8,7 +8,7 @@ package instaamqp
 import (
 	"net/url"
 
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 	"github.com/streadway/amqp"
 
 	ot "github.com/opentracing/opentracing-go"

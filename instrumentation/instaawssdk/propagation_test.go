@@ -10,10 +10,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sns"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instaawssdk"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instaawssdk"
 )
 
 func TestSpanContextFromSQSMessage(t *testing.T) {

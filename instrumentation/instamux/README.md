@@ -3,7 +3,7 @@ Instana instrumentation for gorilla mux
 
 This module contains middleware to instrument HTTP services written with [`github.com/gorilla/mux`](https://github.com/gorilla/mux).
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/instana/go-sensor/instrumentation/instamux)][godoc]
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/mier85/go-sensor/instrumentation/instamux)][godoc]
 
 Installation
 ------------
@@ -11,7 +11,7 @@ Installation
 To add the module to your `go.mod` file run the following command in your project directory:
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/instamux
+$ go get github.com/mier85/go-sensor/instrumentation/instamux
 ```
 
 Usage
@@ -35,5 +35,5 @@ r.HandleFunc("/foo", func(writer http.ResponseWriter, request *http.Request) {})
 
 
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instamux
-[fullExample]: https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instamux#example-package
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instamux
+[fullExample]: https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instamux#example-package

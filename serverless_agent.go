@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/instana/go-sensor/acceptor"
-	"github.com/instana/go-sensor/process"
+	"github.com/mier85/go-sensor/acceptor"
+	"github.com/mier85/go-sensor/process"
 )
 
 // ErrAgentNotReady is an error returned for an attempt to communicate with an agent before the client

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/instana/go-sensor/w3ctrace"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	"github.com/mier85/go-sensor/w3ctrace"
 )
 
 const maxKVPairs = 32

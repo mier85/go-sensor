@@ -1,7 +1,7 @@
 Greeter Server
 ==============
 
-Greeter is an example app that demonstrates how to use `github.com/instana/go-sensor` to instrument
+Greeter is an example app that demonstrates how to use `github.com/mier85/go-sensor` to instrument
 an HTTP server that makes requests to a database with Instana. In this case we use PostgreSQL via
 [`github.com/lib/pq`](https://github.com/lib/pq), but the same approach can be applied to any driver
 that is compatible with `database/sql`.

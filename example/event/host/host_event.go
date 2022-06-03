@@ -6,7 +6,7 @@ package main
 import (
 	"time"
 
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 )
 
 func main() {

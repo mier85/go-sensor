@@ -10,9 +10,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/instana/go-sensor/gcloud"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	"github.com/mier85/go-sensor/gcloud"
 )
 
 func TestComputeMetadataProvider_ComputeMetadata(t *testing.T) {

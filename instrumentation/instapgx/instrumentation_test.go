@@ -14,13 +14,11 @@ import (
 	"testing"
 	"time"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instapgx"
 	"github.com/instana/testify/assert"
 	"github.com/jackc/pgconn"
-	"github.com/jackc/pgx/v4"
-
 	_ "github.com/lib/pq"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instapgx"
 )
 
 func TestConnect(t *testing.T) {

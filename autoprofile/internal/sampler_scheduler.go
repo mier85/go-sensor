@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/instana/go-sensor/autoprofile/internal/logger"
+	"github.com/mier85/go-sensor/autoprofile/internal/logger"
 )
 
 var samplerActive Flag

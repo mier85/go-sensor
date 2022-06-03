@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/instana/go-sensor/secrets"
 	"github.com/instana/testify/assert"
 	"github.com/instana/testify/require"
+	"github.com/mier85/go-sensor/secrets"
 )
 
 func TestEqualsMatcher(t *testing.T) {

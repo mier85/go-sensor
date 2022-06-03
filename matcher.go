@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/instana/go-sensor/secrets"
+	"github.com/mier85/go-sensor/secrets"
 )
 
 const (

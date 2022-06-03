@@ -3,9 +3,9 @@
 ![Instana, an IBM company](https://user-images.githubusercontent.com/203793/135623131-0babc5b4-7599-4511-8bf0-ce05922de8a3.png)
 
 [![Build Status](https://circleci.com/gh/instana/go-sensor/tree/master.svg?style=svg)](https://circleci.com/gh/instana/go-sensor/tree/master)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/instana/go-sensor)][pkg.go.dev]
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/mier85/go-sensor)][pkg.go.dev]
 [![OpenTracing](https://img.shields.io/badge/OpenTracing-enabled-blue.svg)](http://opentracing.io)
-[![Go Report Card](https://goreportcard.com/badge/github.com/instana/go-sensor)](https://goreportcard.com/report/github.com/instana/go-sensor)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mier85/go-sensor)](https://goreportcard.com/report/github.com/mier85/go-sensor)
 
 The Go Collector is a runtime metrics collector, code execution tracer and profiler for applications and services written in Go. This module
 is a part of [Instana](https://instana.com) APM solution.
@@ -17,7 +17,7 @@ The Go Collector requires Go version 1.9 or greater.
 To add Instana Go Collector to your service run:
 
 ```bash
-$ go get github.com/instana/go-sensor
+$ go get github.com/mier85/go-sensor
 ```
 
 You might also consider installing [supplemental modules](https://www.ibm.com/docs/en/obi/current?topic=technologies-monitoring-go#supported-frameworks-and-libraries)
@@ -57,7 +57,7 @@ collecting and sending the following runtime metrics to Instana in background:
 Instana Go Collector provides an API to [instrument][docs.howto.instrumentation] function and method calls from within the application code
 to trace its execution.
 
-The core `github.com/instana/go-sensor` package is shipped with instrumentation wrappers for the standard library, including HTTP client and
+The core `github.com/mier85/go-sensor` package is shipped with instrumentation wrappers for the standard library, including HTTP client and
 server, as well as SQL database drivers compatible with `database/sql`. There are also supplemental
 [instrumentation modules](https://www.ibm.com/docs/en/obi/current?topic=technologies-monitoring-go#supported-frameworks-and-libraries) provide code wrappers to instrument
 the most popular 3rd-party libraries.
@@ -118,11 +118,11 @@ If something is not working as expected or you have a question, instead of openi
 
 <!-- Links section -->
 
-[godoc]: https://pkg.go.dev/github.com/instana/go-sensor/?tab=doc#pkg-examples
-[pkg.go.dev]: https://pkg.go.dev/github.com/instana/go-sensor
+[godoc]: https://pkg.go.dev/github.com/mier85/go-sensor/?tab=doc#pkg-examples
+[pkg.go.dev]: https://pkg.go.dev/github.com/mier85/go-sensor
 [docs.autoprofile]: https://www.ibm.com/docs/en/obi/current?topic=technologies-monitoring-go#instana-autoprofile%E2%84%A2
 [docs.configuration]: https://www.ibm.com/docs/en/obi/current?topic=go-collector-configuration
 [docs.installation]: https://www.ibm.com/docs/en/obi/current?topic=go-collector-installation
 [docs.howto.configuration]: https://www.ibm.com/docs/en/obi/current?topic=go-collector-common-operations#configuration
 [docs.howto.instrumentation]: https://www.ibm.com/docs/en/obi/current?topic=go-collector-common-operations#instrumentation
-[instana.DefaultOptions]: https://pkg.go.dev/github.com/instana/go-sensor#DefaultOptions
+[instana.DefaultOptions]: https://pkg.go.dev/github.com/mier85/go-sensor#DefaultOptions

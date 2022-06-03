@@ -3,7 +3,7 @@ Instana instrumentation for pgx
 
 This module contains middleware to instrument services written with [`github.com/jackc/pgx/v4`](https://github.com/jackc/pgx/v4).
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/instana/go-sensor/instrumentation/instapgx)](https://pkg.go.dev/github.com/instana/go-sensor/instrumentation/instapgx)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/mier85/go-sensor/instrumentation/instapgx)](https://pkg.go.dev/github.com/mier85/go-sensor/instrumentation/instapgx)
 
 The API of this instrumentation might change in the future.
 
@@ -23,7 +23,7 @@ Installation
 To add the module to your `go.mod` file run the following command in your project directory:
 
 ```bash
-$ go get github.com/instana/go-sensor/instrumentation/instapgx
+$ go get github.com/mier85/go-sensor/instrumentation/instapgx
 ```
 
 Usage
@@ -58,9 +58,9 @@ br := conn.SendBatch(ctx, b)
 Examples
 ---
 
-[Connection examples](https://github.com/instana/go-sensor/blob/master/instrumentation/instapgx/example_conn_test.go)
+[Connection examples](https://github.com/mier85/go-sensor/blob/master/instrumentation/instapgx/example_conn_test.go)
 
-[Transaction examples](https://github.com/instana/go-sensor/blob/master/instrumentation/instapgx/example_tx_test.go)
+[Transaction examples](https://github.com/mier85/go-sensor/blob/master/instrumentation/instapgx/example_tx_test.go)
 
 Testing
 ---

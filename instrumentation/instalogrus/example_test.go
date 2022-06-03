@@ -6,8 +6,8 @@ package instalogrus_test
 import (
 	"context"
 
-	instana "github.com/instana/go-sensor"
-	"github.com/instana/go-sensor/instrumentation/instalogrus"
+	instana "github.com/mier85/go-sensor"
+	"github.com/mier85/go-sensor/instrumentation/instalogrus"
 	"github.com/sirupsen/logrus"
 )
 

@@ -1,6 +1,7 @@
 // (c) Copyright IBM Corp. 2021
 // (c) Copyright Instana Inc. 2016
 
+//go:build go1.11
 // +build go1.11
 
 package instagin
@@ -9,7 +10,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	instana "github.com/instana/go-sensor"
+	instana "github.com/mier85/go-sensor"
 )
 
 // AddMiddleware adds the tracing middleware to the list of Gin handlers. Unlike the gin.Use method, it puts the middleware
