@@ -12,15 +12,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/instana/testify/require"
+	"github.com/mier85/testify/require"
 	"github.com/opentracing/opentracing-go"
 
-	"github.com/instana/testify/assert"
+	"github.com/mier85/testify/assert"
 
 	instana "github.com/mier85/go-sensor"
 	"github.com/mier85/go-sensor/instrumentation/instamux"
-
-	"github.com/gorilla/mux"
 )
 
 func TestMain(m *testing.M) {
@@ -42,7 +40,7 @@ func TestPropagation(t *testing.T) {
 	tracer := instana.NewTracerWithEverything(nil, recorder)
 	sensor := instana.NewSensorWithTracer(tracer)
 
-	r := mux.NewRouter()
+	r := instamux.NewRouter(sensor)
 	r.HandleFunc("/foo/{id}", func(w http.ResponseWriter, r *http.Request) {
 		parent, ok := instana.SpanFromContext(r.Context())
 		assert.True(t, ok)
@@ -52,8 +50,6 @@ func TestPropagation(t *testing.T) {
 		w.Header().Add("x-custom-header-2", "response")
 		w.WriteHeader(http.StatusOK)
 	}).Name("foos")
-
-	instamux.AddMiddleware(sensor, r)
 
 	req := httptest.NewRequest("GET", "https://example.com/foo/1?SECRET_VALUE=%3Credacted%3E&myPassword=%3Credacted%3E&q=term&sensitive_key=%3Credacted%3E", nil)
 

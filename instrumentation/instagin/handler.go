@@ -23,6 +23,22 @@ func AddMiddleware(sensor *instana.Sensor, engine *gin.Engine) {
 	engine.Use()
 }
 
+// Default is wrapper for gin.Default()
+func Default(sensor *instana.Sensor) *gin.Engine {
+	e := gin.Default()
+	AddMiddleware(sensor, e)
+
+	return e
+}
+
+// New is wrapper for gin.New()
+func New(sensor *instana.Sensor) *gin.Engine {
+	e := gin.New()
+	AddMiddleware(sensor, e)
+
+	return e
+}
+
 type statusWriter interface {
 	SetStatus(status int)
 }
